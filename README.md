@@ -18,7 +18,7 @@ Ejercicio rápido en tiempo real para entrevista de trabajo front-end.
 - Opcional: estilos adicionales y animaciones.
 
 # Descripción de alto nivel
-Crear una paǵina/componente donde se muestre una lista o placeholder y un botón. 
+Crear una paǵina/componente donde se muestre una lista o placeholder (lista vacía o mensaje, pero sin mostrar ningún dato) y un botón.
 Al hacer click al botón vamos a simular una petición a una API para recuperar un listado de Strings.
 Hay que validad cuales de esas Strings son DNIs válidos. (sin letra final)
 Para los DNIs válidos mostrar la letra asociada al DNI.
@@ -26,7 +26,7 @@ Ordenaremos las strings en una sola lista donde los valores estarán ordenados d
 1. Primero los valores que son DNIs válidos
 2. Estos valores válidos se ordenarán por orden alfabético de la Letra del DNI
 3. Después los valores no válidos, ordenados de forma desdendente por la longitud de la String.
-(opcional) Para los valores no válidos, en lugar de mostrar la letra del DNI, se mostrará un botón. Al hacer click en el botón, desaparecerá ese elemento de la lista.
+4. (opcional) Para los valores no válidos, en lugar de mostrar la letra del DNI, se mostrará un botón. Al hacer click en el botón, desaparecerá ese elemento de la lista.
 
 ## Detalles y requisitos:
 1. Al hacer click al botón, se debe esperar 2 segundos, simulando una carga de datos. Valorar cómo se da feedback al usuario durante la espera.
